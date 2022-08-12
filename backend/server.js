@@ -16,7 +16,7 @@ console.log(process.env);
 
 
 mongoose.Promise= global.Promise;
-mongoose.connect('mongodb+srv://b234ch:ahmadsvy@cluster0.fksa605.mongodb.net/?retryWrites=true&w=majority', {useNewUrlParser: true, server: { socketOptions: {
+mongoose.connect('mongodb+srv://b234ch:ahmadsvy@cluster0.fksa605.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true, server: { socketOptions: {
     socketTimeoutMS: 0,
     connectTimeoutMS: 0
   }
